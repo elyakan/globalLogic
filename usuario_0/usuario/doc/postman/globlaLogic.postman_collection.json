@@ -1,0 +1,236 @@
+{
+	"info": {
+		"_postman_id": "ab907fab-8f9c-4345-bca3-c771e96f80d0",
+		"name": "globlaLogic",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://localhost:8083/api/v2/usuario/",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzUxMiJ9.eyJqdGkiOiJ1c3VhcmlvSldUIiwic3ViIjoiYWFhYWEiLCJhdXRob3JpdGllcyI6WyJST0xFX1VTRVIiXSwiaWF0IjoxNjM3NDUwMzI4LCJleHAiOjE2Mzc0NTA5Mjh9.sBPZOXTcSB1OtD-dcRO369jGKSO8J3ihy2KR590hXaL-FwAaiEPLhZHLDKQyVA-jBivCjdlKig482KcCWxm56w",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\":\"ccccc\",    \r\n    \"email\":\"wwwww@ccccc.cl\",\r\n    \"password\":\"cccc\",\r\n    \"isactive\":true}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8083/api/v2/usuario/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8083",
+					"path": [
+						"api",
+						"v2",
+						"usuario",
+						""
+					],
+					"query": [
+						{
+							"key": "Authorization",
+							"value": "Bearer eyJhbGciOiJIUzUxMiJ9.eyJqdGkiOiJzb2Z0dGVrSldUIiwic3ViIjoic2ViYXMiLCJhdXRob3JpdGllcyI6WyJST0xFX1VTRVIiXSwiaWF0IjoxNjM3MTgyOTI1LCJleHAiOjE2MzcxODM1MjV9.91_Qwb65hCo5q6HVnl07febUCg896rkBG8ZOXwlK8wFoxsyV5h6Sq1HrcJuZxVEhzoZNKN6s5AOHoVeEBHg0iA",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8083/api/v2/usuario/",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzUxMiJ9.eyJqdGkiOiJ1c3VhcmlvSldUIiwic3ViIjoiYWFhYWEiLCJhdXRob3JpdGllcyI6WyJST0xFX1VTRVIiXSwiaWF0IjoxNjM3NDU4OTQ4LCJleHAiOjE2Mzc0NTk1NDh9.kPkxcNuduVmAEvADs4bQq_Bd1WgX6cIxCs5uAAl84F_d-REu6CL4rXQOoWNO5iamsRMC0CiHu9GiTH7D3db2FA",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\":\"gfghfhfg\",    \r\n    \"email\":\"hhhh@cosorcio.cl\",\r\n    \"password\":\"gdddUU55ds\",\r\n    \"isactive\":true,\r\n    \"telefono\":[\r\n        {\r\n            \"number\":\"23569898\",\r\n            \"citycode\":\"5\",\r\n            \"contrycode\":\"58\"\r\n        },\r\n        {\r\n            \"number\":\"78798521\",\r\n            \"citycode\":\"5\",\r\n            \"contrycode\":\"58\"\r\n        }\r\n    ]\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8083/api/v2/usuario/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8083",
+					"path": [
+						"api",
+						"v2",
+						"usuario",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8083/api/v2/usuario/3",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzUxMiJ9.eyJqdGkiOiJ1c3VhcmlvSldUIiwic3ViIjoiYWFhYWEiLCJhdXRob3JpdGllcyI6WyJST0xFX1VTRVIiXSwiaWF0IjoxNjM3NDM1NDU5LCJleHAiOjE2Mzc0MzYwNTl9.cuzKCrj1GUAWfcKmyiIxam8-Pm7ZdyFGom2iYgbzpRjfLHpIJ8OaP_48gvvXqCexNvPg9YYO0_qJscKtq0Kc-g",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\":\"ccccc\",    \r\n    \"email\":\"wwwww@ccccc.cl\",\r\n    \"password\":\"cccc\",\r\n    \"isactive\":true}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8083/api/v2/usuario/3",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8083",
+					"path": [
+						"api",
+						"v2",
+						"usuario",
+						"3"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8083/api/v2/usuario/3",
+			"request": {
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzUxMiJ9.eyJqdGkiOiJ1c3VhcmlvSldUIiwic3ViIjoiYWFhYWEiLCJhdXRob3JpdGllcyI6WyJST0xFX1VTRVIiXSwiaWF0IjoxNjM3Mzc2OTMzLCJleHAiOjE2MzczNzc1MzN9.diYRs1u_f3IdrvNIWXT_KdR3XAaJZAyEu1yBbtenD3E_-3SxTCYVDGTQUcDZJHc1nIlPFvzFyNEYTceamYjuog",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8083/api/v2/usuario/2",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8083",
+					"path": [
+						"api",
+						"v2",
+						"usuario",
+						"2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8083/api/v2/usuario/3",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzUxMiJ9.eyJqdGkiOiJ1c3VhcmlvSldUIiwic3ViIjoiYWFhYWEiLCJhdXRob3JpdGllcyI6WyJST0xFX1VTRVIiXSwiaWF0IjoxNjM3NDM1NjYyLCJleHAiOjE2Mzc0MzYyNjJ9.GriXsuhClYLRw6NuXHpq_rdfocrqfxz82Y8n_r3WAxMun172KFIkaqCWMb7QRWCnLMMp-3cO_x-e9SKEKu4KGg",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"id_usuario\": 2,\r\n    \"name\": \"aaaaaa\",\r\n    \"email\": \"ccccc@ccccc.cl\",\r\n    \"password\": \"cccc\",\r\n    \"isactive\": true,\r\n    \"telefono\": [\r\n        {\r\n            \"id_telefono\": 5,\r\n            \"id_usuario\": 2,\r\n            \"number\": \"111111111\",\r\n            \"citycode\": \"5\",\r\n            \"contrycode\": \"58\"\r\n        },\r\n        {\r\n            \"id_telefono\": 6,\r\n            \"id_usuario\": 2,\r\n            \"number\": \"23569898\",\r\n            \"citycode\": \"5\",\r\n            \"contrycode\": \"58\"\r\n        }\r\n    ]\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8083/api/v2/usuario/2",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8083",
+					"path": [
+						"api",
+						"v2",
+						"usuario",
+						"2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8083/user?user=sebas&password=pwd",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8083/user?user=aaaaa&password=wwwww",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8083",
+					"path": [
+						"user"
+					],
+					"query": [
+						{
+							"key": "user",
+							"value": "aaaaa"
+						},
+						{
+							"key": "password",
+							"value": "wwwww"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

@@ -1,0 +1,35 @@
+cl/globallogic/usuario/model/BooleanToStringConverter.java
+ cl.globallogic.usuario.model.BooleanToStringConverter
+cl/globallogic/usuario/security/JWTAuthorizationFilter.java
+ cl.globallogic.usuario.security.JWTAuthorizationFilter
+cl/globallogic/usuario/dto/User.java
+ cl.globallogic.usuario.dto.User
+cl/globallogic/usuario/UsuarioApplication.java
+ cl.globallogic.usuario.UsuarioApplication
+ cl.globallogic.usuario.UsuarioApplication$WebSecurityConfig
+cl/globallogic/usuario/repositories/UsuarioRepository.java
+ cl.globallogic.usuario.repositories.UsuarioRepository
+cl/globallogic/usuario/services/TelefonoServiceImpl.java
+ cl.globallogic.usuario.services.TelefonoServiceImpl
+cl/globallogic/usuario/controllers/UserController.java
+ cl.globallogic.usuario.controllers.UserController
+cl/globallogic/usuario/repositories/TelefonoRepository.java
+ cl.globallogic.usuario.repositories.TelefonoRepository
+cl/globallogic/usuario/services/TelefonoService.java
+ cl.globallogic.usuario.services.TelefonoService
+cl/globallogic/usuario/model/Telefono.java
+ cl.globallogic.usuario.model.Telefono
+ cl.globallogic.usuario.model.Telefono$TelefonoBuilder
+cl/globallogic/usuario/response/ResponseHandler.java
+ cl.globallogic.usuario.response.ResponseHandler
+cl/globallogic/usuario/ServletInitializer.java
+ cl.globallogic.usuario.ServletInitializer
+cl/globallogic/usuario/services/UsuarioService.java
+ cl.globallogic.usuario.services.UsuarioService
+cl/globallogic/usuario/controllers/UsuarioController.java
+ cl.globallogic.usuario.controllers.UsuarioController
+cl/globallogic/usuario/services/UsuarioServiceImpl.java
+ cl.globallogic.usuario.services.UsuarioServiceImpl
+cl/globallogic/usuario/model/Usuario.java
+ cl.globallogic.usuario.model.Usuario
+ cl.globallogic.usuario.model.Usuario$UsuarioBuilder

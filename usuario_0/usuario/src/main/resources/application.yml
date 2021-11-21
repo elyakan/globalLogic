@@ -1,0 +1,56 @@
+server:
+  port: 8083
+spring:
+  application:
+    name: usuario
+  jackson:
+    date-format: dd/MM/yyyy HH:mm:ss
+    serialization.WRITE_DATES_AS_TIMESTAMPS: false
+  database: h2
+  console: true
+  path: /h2
+  datasource:
+    platform: h2
+    url: jdbc:h2:mem:testdb
+    username: sa
+    password: 1234
+    driverClassName: org.h2.Driver
+  jpa:
+    show-sql: true
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.H2Dialect
+    hibernate:
+      ddl-auto: none
+      naming:
+        strategy: org.hibernate.cfg.ImprovedNamingStrategy
+    h2:
+      console:
+        enabled: true
+        path: /h2-console
+
+### Chassis Configs ###
+
+
+# Metrics starter properties
+metrics:
+  enabled: false
+
+# Logging starter properties
+logging:
+  level:
+    root: INFO
+  format: JSON
+  debug: false
+
+# Response wrapping settings
+web:
+  advice:
+    response:
+      formatting:
+        enabled: false
+
+
+
+
+
